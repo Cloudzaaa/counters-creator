@@ -1,3 +1,26 @@
+# Counters-creator
+
+<p align="center">
+    <img src="https://lh3.googleusercontent.com/EEbkBvCkmjhYr0xIfkCAEoN3cWVChd6Fh7tC5jfRS06MU0_8mMBwx9yTOHAnO_Hzp40" height="200" width="200px">
+</p>
+
+Counters-creator simple script for automated creation yandex and google counters.
+
+## Getting Started
+
+### Installation
+
+To use Counters-creator, run:
+
+```nodejs
+npm install
+```
+
+### Usage
+
+For usage you should fill down config with your account data and wish domains for counters creation.
+
+```js
 const config = {
     'google' : {
         'email' : 'adolf@yandex.ru', //login to google analytics
@@ -21,5 +44,4 @@ const config = {
         'typingDelay' : 5, //Time to wait between key presses
     }
 };
-
-module.exports = config;
+```
